@@ -1,8 +1,10 @@
 {
   "name": "hws2",
-  "homepage": "http://guzlunger.github.io/homework",
+  "homepage": "https://guzlunger.github.io/homework",
   "version": "0.1.0",
   "private": true,
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
